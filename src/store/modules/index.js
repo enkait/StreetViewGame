@@ -7,6 +7,7 @@ import dialog from './dialog.store';
 import experiment from './experiment.store';
 import gameGen from './game_gen.store';
 import persistentDialog from './persistent_dialog.store';
+import toast from './toast.store';
 
 const modules = {
   auth,
@@ -14,6 +15,7 @@ const modules = {
   experiment,
   gameGen,
   persistentDialog,
+  toast,
 };
 
 export default modules;
